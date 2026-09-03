@@ -1,0 +1,109 @@
+# VendorLink — COMBINED one-shot video prompts 🎬
+
+Each prompt below is a single continuous 30-second (or shorter) film.
+Copy-paste the whole block into a long-form video tool (Sora, Veo 3,
+Kling 1.6+). If your tool caps at 5–10s per generation, use the same
+text as the master style + first scene, then continue scene-by-scene —
+the style lock keeps the cuts seamless.
+
+**Style lock (already baked into every prompt):**
+cinematic, natural warm African sunlight, emerald green (#059669) and
+white color palette, realistic documentary look, shallow depth of field,
+no on-screen text (add logo/tagline in editing).
+
+---
+
+## 🎬 VIDEO A — "Her Shop, Her Phone, Her Empire" (30s, vertical 9:16)
+
+> A continuous 30-second cinematic vertical 9:16 film, realistic documentary
+> style, natural warm African sunlight, emerald green and white color
+> palette, shallow depth of field, no text.
+>
+> Open in a bustling Lagos market at morning: a young Nigerian woman in a
+> colorful headwrap arranges stacks of vibrant ankara fabric in her wooden
+> market stall, warm sunlight streaming between the beams. She notices her
+> smartphone on the counter and picks it up. Cut to a close-up of her thumb
+> tapping a glowing emerald green button on a clean white app that reads
+> "Create your free store", her face softly lit by the screen, market bokeh
+> behind her. The screen transforms into a polished online storefront — a
+> grid of product photos with Naira prices, a green "Order via WhatsApp"
+> button and a cyan "Pay now" button sliding in — and her eyes widen with
+> pride. The scene bursts into life: customers approach, she hands over
+> fabric bags, and her phone lights up with incoming green order bubbles.
+> Final shot: golden-hour light, she closes her stall and walks toward
+> camera holding her phone out, screen glowing emerald with a simple white
+> storefront icon, smiling proudly, the market fading into a clean emerald
+> gradient behind her. Hopeful, energetic, celebratory Afrobeats energy,
+> seamless single narrative, vertical 9:16.
+
+---
+
+## 🎬 VIDEO B — Product demo (20s, square 1:1)
+
+> A continuous 20-second square 1:1 product demo film in modern flat motion
+> design style on a soft emerald-green gradient studio background, no text.
+>
+> A hand holds a smartphone showing a minimal white signup page with a
+> single emerald button reading "Create your free store". The screen shifts
+> to an "Add product" page: a real photo of a woven leather handbag snaps
+> into a neat image frame and a green checkmark animates on. The screen then
+> morphs into a live storefront — two product cards slide up showing the
+> handbag and a smartwatch with Naira prices, a green "Order via WhatsApp"
+> button pulses softly, and a cyan "Pay now" button slides in beside it.
+> The camera pulls back to reveal a smiling Nigerian woman holding the
+> phone, a floating green WhatsApp-style chat bubble popping up with a
+> checkmark. Clean, minimal, premium UI animations, soft studio lighting,
+> square 1:1.
+
+---
+
+## 🎬 VIDEO C — Emotional launch film (30s, widescreen 16:9)
+
+> A continuous 30-second cinematic widescreen 16:9 film, warm documentary
+> realism, natural light, emerald green and gold palette, no text.
+>
+> Dawn over a Nigerian market: traders unlock wooden stalls in golden
+> morning haze while one woman in the foreground opens her phone to a
+> glowing emerald app, steam rising from a nearby food stall. She steps into
+> her own stall and photographs a colorful gele headwrap with her phone,
+> checking the screen as the headwrap appears inside a polished online
+> store. Quick montage of other vendors — a shoemaker, a baker with a cake
+> box, a gadgets seller — each smiling at their phones, each screen glowing
+> emerald with their own storefront. On a busy street, a customer taps a
+> cyan "Pay now" button on his phone while the vendor's phone buzzes with a
+> green "Order paid" bubble; both smile. The woman closes her stall at
+> golden hour and walks away into the light, phone glowing emerald in her
+> hand, then turns back to camera with a proud, hopeful smile. Cinematic
+> pull-back, uplifting and authentic, widescreen 16:9.
+
+---
+
+## 🎬 VIDEO D — Kinetic logo teaser (10s, vertical 9:16)
+
+> A continuous 10-second vertical 9:16 abstract motion-graphics film on a
+> dark slate background, no text.
+>
+> Hundreds of tiny emerald-green storefront icons burst outward from the
+> center of the frame like confetti, each icon a minimal white awning shape,
+> smooth elegant particle motion with subtle depth. The icons slow, swirl,
+> and lock together into one clean white storefront mark inside a rounded
+> emerald square at the center of the frame. A single soft pulse of light
+> rings outward once, then stillness. Minimal, premium, energetic, perfect
+> for a brand bumper, vertical 9:16.
+
+---
+
+## ⚙️ If your tool caps at ~10 seconds per clip
+
+1. Use the video's **style-lock line** as the opening of every scene prompt
+2. Regenerate scene-by-scene (the scene prompts live in `PROMO-PROMPTS.md`)
+3. Keep the **same seed/style reference image** if the tool supports it
+4. Stitch in CapCut with 0.3s crossfades — the locked style makes it look
+   like one take
+
+## 🎵 Sound & finishing (CapCut, free)
+
+- Music: upbeat Afrobeats instrumental (no vocals), duck volume at the end
+- Text overlay at the end: **VendorLink — Your online store, live in minutes**
+- End card: emerald background + logo + "Free forever · No fees"
+- Export: A/D = 1080x1920 · B = 1080x1080 · C = 1920x1080
