@@ -2,7 +2,7 @@
   "name": "vendorlink",
   "version": "0.2.0",
   "private": true,
-  "description": "VendorLink — multi-tenant e-commerce storefronts for Nigerian vendors. Subscription revenue (NGN 10,000/mo), zero transaction fees.",
+  "description": "VendorLink — multi-tenant e-commerce storefronts for Nigerian vendors. Free plan with Premium at NGN 2,000/mo (unlimited products), zero transaction fees.",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",

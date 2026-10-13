@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| **Business model** | **Free mode (current):** every store is free — 20 products, unlimited orders, WhatsApp + Paystack checkout. Monetization (₦10,000/mo Premium) is removed from the UI but the schema is ready to re-enable it later. |
+| **Business model** | **Free plan:** every store is free — 20 products, unlimited orders, WhatsApp + Paystack checkout. **Premium (₦2,000/mo):** unlimited products per store. Custom sites and custom payment setups are quote-based (vendors contact us). |
 | **Stack** | Next.js 14 (App Router) · TypeScript · Tailwind · shadcn-style UI · Supabase (Postgres, Auth, Storage, Edge Functions) · Paystack (Inline) · Vercel |
 | **Cost** | ₦0 — every service runs on its free tier. |
 | **Mobile-first** | 90% of traffic is mobile; every screen is designed phone-first. |
@@ -36,8 +36,12 @@
 
 > The numbers live in `lib/config.ts` (`PRODUCT_LIMIT`) — change it there and in `0001_init.sql` to adjust.
 
-### Re-enabling monetization later
-The schema keeps `stores.is_premium`, `stores.subscription_status` and the `subscriptions` table, and the webhook still contains the (dormant) `charge.success`/`subscription.disable` subscription handlers. To bring back Premium billing you'd: re-add a subscription page (git history has the previous `subscription-card.tsx`), re-add platform Paystack env vars, and gate the product trigger/order RPC on `is_premium` again.
+### Premium (₦2,000/month)
+Premium lifts the 20-product cap. The schema already has `stores.is_premium`, `stores.subscription_status`, and the `subscriptions` table, and the webhook includes the subscription handlers (`charge.success` / `subscription.disable`). To turn Premium on, you would:
+1. Re-add a subscription page (git history has the previous `subscription-card.tsx`) and set the plan price to ₦2,000/month.
+2. Re-add the platform Paystack env vars.
+3. Gate the product trigger (`enforce_product_limit`) on `is_premium`, so premium stores skip the 20-product check.
+4. Keep `PRODUCT_LIMIT` at 20 in `lib/config.ts` and the migration for free stores. Premium stores bypass this check.
 
 ---
 
